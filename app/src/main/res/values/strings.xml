@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Allebmedia</string>
+    <string name="enquiries">For More Enquiries</string>
+    <string name="address">Lagos, Nigeria</string>
+    <string name="email">contactus@allebmedia.com</string>
+    <string name="description">Description</string>
+    <string name="about">Allebmedia is a multimedia company.</string>
+    <string name="time">8am-7pm Daily</string>
+</resources>

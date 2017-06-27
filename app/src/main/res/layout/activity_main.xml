@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.allebd.allebmedia.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            app:srcCompat="@drawable/alleblogo" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/allebbackground" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/enquiries"
+            android:fontFamily="sans-serif-bold"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_below="@id/textView"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:paddingRight="20dp"
+            app:srcCompat="@drawable/icons8_marker_48" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_toRightOf="@id/imageView4"
+            android:layout_below="@id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="@string/address"
+            android:fontFamily="sans-serif-light"
+            android:textSize="15sp"/>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_below="@id/imageView4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:paddingRight="20dp"
+            app:srcCompat="@drawable/icons8_message_filled_50" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_toRightOf="@id/imageView5"
+            android:layout_below="@id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="19dp"
+            android:text="@string/email"
+            android:fontFamily="sans-serif-light"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView5"
+            android:layout_weight="1"
+            android:text="@string/description"
+            android:fontFamily="sans-serif-bold"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_below="@id/textView6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:paddingRight="20dp"
+            app:srcCompat="@drawable/icons8_info_26" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_toRightOf="@id/imageView6"
+            android:layout_below="@id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="9dp"
+            android:text="@string/about"
+            android:fontFamily="sans-serif-light"
+            android:textSize="15sp"/>
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_below="@id/imageView6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:paddingRight="20dp"
+            app:srcCompat="@drawable/icons8_stopwatch_48" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_toRightOf="@id/imageView7"
+            android:layout_below="@id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="12dp"
+            android:text="@string/time"
+            android:fontFamily="sans-serif-light"
+            android:textSize="15sp"/>
+    </RelativeLayout>
+
+</LinearLayout>
