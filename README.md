@@ -1,1 +1,1 @@
-# A basic site in as an android app
+# A basic site as an android app
